@@ -1,0 +1,4 @@
+<h1>Hello, world!</h1>
+<hr />
+<button (click)="openSnackbar()">Open snackbar</button>
+<app-snackbar *ngIf="snackbar.message$ | async"></app-snackbar>
